@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F7F7F4">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Smart Hisab Book" android:textColor="#1D342A" android:textSize="25sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Seedha dukaan ka hisaab" android:textColor="#555555" android:textSize="14sp" android:layout_marginTop="3dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#FFFFFF" android:padding="14dp" android:layout_marginTop="18dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Aaj ka hisaab" android:textColor="#333333" android:textStyle="bold" android:textSize="16sp" />
+            <TextView android:id="@+id/summaryReceivable" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Customers se lena hai: ₹0.00" android:textColor="#245B45" android:textSize="17sp" android:layout_marginTop="12dp" />
+            <TextView android:id="@+id/summaryPayable" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Suppliers ko dena hai: ₹0.00" android:textColor="#8A3D32" android:textSize="17sp" android:layout_marginTop="8dp" />
+            <TextView android:id="@+id/summaryCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Customers / Suppliers: 0" android:textColor="#555555" android:textSize="14sp" android:layout_marginTop="8dp" />
+        </LinearLayout>
+        <Button android:id="@+id/addPersonButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add customer / supplier" android:layout_marginTop="16dp" />
+        <Button android:id="@+id/addEntryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add hisaab entry" />
+        <Button android:id="@+id/viewPeopleButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Customers and suppliers" />
+        <Button android:id="@+id/viewEntriesButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Transaction history" />
+        <Button android:id="@+id/backupButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Export backup (CSV)" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Important: Data is stored on this phone only. Export a backup regularly. If the phone is lost or app data is cleared, records may be lost." android:textColor="#6B5B3E" android:textSize="12sp" android:layout_marginTop="14dp" />
+    </LinearLayout>
+</ScrollView>
